@@ -1,0 +1,148 @@
+body, html{
+    background-color: rgb(236, 210, 236);
+
+}
+  
+.bigger{
+    background-color: rgb(236, 210, 236);
+    
+}
+
+.sidebar{
+    height: 100vh;
+    background-color: plum;
+}
+
+.upper{
+    height: 100vh;
+    background-color: white;
+}
+
+.Im{
+    border: 3px solid plum;
+}
+
+.four{
+    height: 200px;
+}
+
+.log{
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    align-items: flex-end;
+}
+
+.front{
+    background-color: plum;
+}
+
+.graduate{
+    font-size: 50px;
+}
+
+.gra{
+    background-color: rgb(193, 116, 238);
+    border-radius: 20px;
+}
+
+.coin{
+    font-size: 60px;
+    color:plum ;
+}
+
+.first{
+    box-shadow: 5px 5px 5px plum;
+}
+
+.first:hover{
+    background-color: rgb(235, 214, 248);
+    cursor: pointer;
+    transition: background-color 0.5s ease;
+    font-size: large;
+
+}
+
+li:hover{
+    font-size: larger;
+    cursor: pointer;
+    font-weight: bold;
+    
+}
+
+.car:hover{
+    font-size: larger;
+    cursor: pointer;
+}
+
+.tea:hover{
+    height: 65px;
+    cursor: pointer;
+}
+
+
+
+.sea{
+    box-shadow: 2px 2px 2px grey;
+}
+
+.tea{
+    border: 3px solid plum;
+}
+
+.big{
+    box-shadow: 5px 5px 5px gray;
+}
+
+.view{
+    background-color: plum;
+    border: none;
+}
+
+.cor{
+    background-color: rgb(235, 214, 248);
+    box-shadow: 5px 5px 5px plum;
+}
+
+.see{
+    color: plum;
+}
+
+.due{
+    color: gray;
+}
+
+@media (min-width: 450px) and (max-width: 800px)  {
+    .hid{
+        display: none;
+    }
+
+    .mentor{
+       display: none;
+    }
+
+    .pay{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+    }
+
+    .last{
+        display: none;
+    }
+
+    /* .lap{
+        display: none;
+    } */
+
+    .fi{
+       
+        text-align: center;
+    }
+
+    .sidebar{
+        height: 700px;
+        background-color: plum;
+    }
+}
